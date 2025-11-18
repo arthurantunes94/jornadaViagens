@@ -1,0 +1,17 @@
+:root{
+    --cor-background-primaria: #FFFFFF;
+    --cor-background-secundaria: #8C8C8C;
+    --cor-background-terciaria: #000000;
+
+    --cor-botao-primaria: #B81515;
+    --cor-botao-secundaria: #8F0101;
+
+    --cor-fonte-primaria: #222222;
+    --cor-fonte-secundaria: #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
