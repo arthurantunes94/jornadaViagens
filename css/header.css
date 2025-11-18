@@ -16,3 +16,7 @@
 .cabecalho--menu-hamburguer-navegacao {
   display: none;
 }
+
+#menu-hamburguer:checked ~ nav {
+  display: block;
+}
