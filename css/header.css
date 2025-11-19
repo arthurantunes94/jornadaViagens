@@ -3,8 +3,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 37px 48px;
+  position: relative;
 }
 
 .cabecalho-logo {
@@ -13,10 +14,32 @@
   width: 64px;
 }
 
+.cabecalho-menu-hamburguer {
+  margin-top: 24px;
+}
+
 .cabecalho--menu-hamburguer-navegacao {
   display: none;
 }
 
 #menu-hamburguer:checked ~ nav {
   display: block;
+  position: absolute;
+  top: 99%;
+  left: 0;
+  width: 100%;
+  background-color: var(--cor-background-terciaria);
+}
+
+.cabecalho-menu-hamburguer-navegacao-itens {
+  list-style: none;
+}
+
+.cabecalho-menu-hamburguer-navegacao-itens li {
+  margin: 16px 0;
+}
+
+.cabecalho-menu-hamburguer-navegacao-itens li a {
+  color: var(--cor-fonte-secundaria);
+  text-decoration: none;
 }
