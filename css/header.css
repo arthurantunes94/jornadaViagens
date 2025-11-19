@@ -37,9 +37,36 @@
 
 .cabecalho-menu-hamburguer-navegacao-itens li {
   margin: 16px 0;
+  font-size: 1.5rem;
+  font-weight: var(--peso-fonte-menu);
 }
 
 .cabecalho-menu-hamburguer-navegacao-itens li a {
   color: var(--cor-fonte-secundaria);
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .cabecalho-menu-hamburguer-imagem {
+    display: none;
+  }
+
+  .cabecalho-menu-hamburguer {
+    margin-top: 0;
+  }
+
+  .cabecalho--menu-hamburguer-navegacao {
+    display: block;
+  }
+
+  .cabecalho-menu-hamburguer-navegacao-itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 467px;
+  }
+
+  .cabecalho-menu-hamburguer-navegacao-itens li {
+    margin: 0;
+  }
 }
