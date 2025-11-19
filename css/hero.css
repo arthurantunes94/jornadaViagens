@@ -5,11 +5,25 @@
   height: 400px;
 }
 
+.hero-texto {
+  font-weight: var(--peso-fonte-texto);
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 88px 24px;
+  text-align: center;
+  line-height: 1.5;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     background: url(../img/hero-img-tablet.jpg) no-repeat;
     background-size: cover;
     height: 620px;
+  }
+
+  .hero-texto {
+    font-size: 2rem;
+    padding: 88px 60px;
   }
 }
 
@@ -17,5 +31,15 @@
   .hero-img {
     background: url(../img/hero-img-desktop.jpg) no-repeat;
     background-size: cover;
+  }
+
+  .hero-texto {
+    padding: 104px 120px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    .hero-texto {
+      padding: 104px 160px;
+    }
   }
 }
