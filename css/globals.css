@@ -36,4 +36,26 @@ button {
 
 body {
   font-family: var(--fonte-projeto);
+  color: var(--cor-fonte-primaria);
+}
+
+.cabecalho-secao-titulo {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: var(--peso-fonte-titulo);
+  text-align: center;
+}
+
+.cabecalho-secao-traco {
+  width: 180px;
+  height: 4px;
+  background-color: var(--cor-botao-primaria);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+@media screen and (min-width: 1024px) {
+  .cabecalho-secao-titulo {
+    font-size: 2rem;
+  }
 }
