@@ -1,0 +1,48 @@
+.corpo-secao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.ofertas-cards {
+  width: 312px;
+  height: 288px;
+  color: var(--cor-fonte-secundaria);
+  background-color: black;
+  border-radius: 1rem;
+}
+
+.corpo-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 24px 16px;
+  gap: 24px;
+}
+
+.ofertas-cards-tipo {
+  font-size: 1.25rem;
+  font-weight: var(--peso-fonte-texto);
+}
+
+.ofertas-cards-local {
+  font-size: 2.5rem;
+  font-weight: var(--peso-fonte-titulo);
+  margin: 0;
+}
+
+.ofertas-cards-valor {
+  font-size: 2rem;
+  font-weight: var(--peso-fonte-titulo);
+}
+
+.ofertas-cards-botao {
+  font-size: 1.25rem;
+  font-weight: var(--peso-fonte-titulo);
+  text-decoration: none;
+  color: var(--cor-fonte-secundaria);
+  background-color: var(--cor-botao-secundaria);
+  padding: 16px 74px;
+  border-radius: 8px;
+}
