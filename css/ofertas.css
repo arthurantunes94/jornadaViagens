@@ -13,26 +13,68 @@
   border-radius: 1rem;
 }
 
+.japao {
+  background: url(../img/bg-card-japao.jpg) no-repeat;
+  background-size: cover;
+}
+
+.san-andreas {
+  background: url(../img/bg-card-san-andreas.jpg) no-repeat;
+  background-size: cover;
+}
+
+.paraiba {
+  background: url(../img/bg-card-paraiba.jpg) no-repeat;
+  background-size: cover;
+}
+
+.manaus {
+  background: url(../img/bg-card-manaus.jpg) no-repeat;
+  background-size: cover;
+}
+
 .corpo-card {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 24px 16px;
-  gap: 24px;
+  align-items: center;
 }
 
 .ofertas-cards-tipo {
   font-size: 1.25rem;
   font-weight: var(--peso-fonte-texto);
+  margin: 24px 0 0 8px;
 }
 
 .ofertas-cards-local {
   font-size: 2.5rem;
   font-weight: var(--peso-fonte-titulo);
   margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .ofertas-cards-valor {
   font-size: 2rem;
   font-weight: var(--peso-fonte-titulo);
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  .ofertas-cards {
+    width: 588px;
+    height: 308px;
+  }
+
+  .ofertas-cards-tipo {
+    font-size: 2rem;
+  }
+
+  .ofertas-cards-local {
+    font-size: 3rem;
+  }
+
+  .ofertas-cards-valor {
+    font-size: 2.5rem;
+  }
 }
