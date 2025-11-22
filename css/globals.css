@@ -54,8 +54,22 @@ body {
   margin: 16px auto 32px;
 }
 
+.botao {
+  font-size: 1.25rem;
+  font-weight: var(--peso-fonte-titulo);
+  text-decoration: none;
+  color: var(--cor-fonte-secundaria);
+  background-color: var(--cor-botao-secundaria);
+  padding: 16px 74px;
+  border-radius: 8px;
+}
+
 @media screen and (min-width: 1024px) {
   .cabecalho-secao-titulo {
     font-size: 2rem;
+  }
+
+  .botao:hover {
+    background-color: var(--cor-botao-primaria);
   }
 }
